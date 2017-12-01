@@ -41,12 +41,20 @@
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.3.3" />
     <plugin name="cordova-plugin-vibration"           source="npm" spec="~2.1.5" />
 
-   
+    <platform name="android">        
+        <icon   src="https://tbncdn.freelogodesign.org/903ad067-341e-4c9f-b6a0-e421e3ab6b97.png" density="ldpi" />
+        <splash src="https://tbncdn.freelogodesign.org/903ad067-341e-4c9f-b6a0-e421e3ab6b97.png" density="land-ldpi />
+     </platform>
+         <platform name="ios">
+        <icon   src="https://tbncdn.freelogodesign.org/903ad067-341e-4c9f-b6a0-e421e3ab6b97.png?1512123371097"   platform="ios" />
+                 <splash src="https://tbncdn.freelogodesign.org/903ad067-341e-4c9f-b6a0-e421e3ab6b97.png"             platform="ios" width="320"  height="480" />
+    </platform>
     <!--
         Define access to external domains.
         <access />            - a blank access tag denies access to all external resources.
         <access origin="*" /> - a wildcard access tag allows access to all external resource.
         Otherwise, you can specify specific domains:
+https://tbncdn.freelogodesign.org/903ad067-341e-4c9f-b6a0-e421e3ab6b97.png?1512123371097
     -->
     <access origin="*" />
    
