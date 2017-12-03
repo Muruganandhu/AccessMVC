@@ -42,13 +42,14 @@
     <plugin name="cordova-plugin-vibration"           source="npm" spec="~2.1.5" />
 
     <platform name="android">        
-        <icon   src="https://tbncdn.freelogodesign.org/903ad067-341e-4c9f-b6a0-e421e3ab6b97.png" density="ldpi" />
-        <splash src="https://tbncdn.freelogodesign.org/903ad067-341e-4c9f-b6a0-e421e3ab6b97.png" density="land-ldpi" />
-     </platform>
-                                                                                                          
+               <icon src="LogoCE.png" density="ldpi" />
+              <icon src="LogoCE.png" density="mdpi" />
+              <icon src="LogoCE.png" density="hdpi" />
+              <icon src="LogoCE.png" density="xhdpi" />      
+     </platform>                                                                                          
      <platform name="ios">
-        <icon src="https://tbncdn.freelogodesign.org/903ad067-341e-4c9f-b6a0-e421e3ab6b97.png?1512123371097" platform="ios" />
-        <splash src="https://tbncdn.freelogodesign.org/903ad067-341e-4c9f-b6a0-e421e3ab6b97.png" platform="ios" width="320"  height="480" />
+        <icon src="LogoCE.png" platform="ios" />
+        <splash src="LogoCE.png" platform="ios" width="320"  height="480" />
     </platform>
     <!--
         Define access to external domains.
